@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 4096px;
+}
+
+footer {
+    height: 100px;
+    width: 100%; /* Faut mettre une largeur pour qu'il soit visible après qu'on le fixe */
+    border-radius: 0px 10px 10px 0px;
+    background: linear-gradient(to right, #f12711, #f5af19);
+    position: fixed; /* Pour qu'il reste afficher quand on scroll */
+    bottom: 0; /* Pour qu'il se mette en bas de l'écran */
+}
